@@ -9,9 +9,17 @@ const Home = () => {
     const options = {
       strings: [
         "Welcome to my profile",
-        "My Name is John Doe",
+        "My Name is Zubair Khan",
         "I'm full stack developer",
-        "Androide Developer (React Native)",
+        "Python, React developer",
+        "I specialize in building scalable web applications and intelligent systems. With hands-on experience in Python development using Django and Flask, I develop powerful backend solutions.",
+        "Also , I work with the MERN stack (MongoDB, Express, React, Node.js) to create responsive and interactive user interfaces.",
+        "My expertise also extends to Artificial Intelligence and Machine Learning, where I build smart models for prediction, classification, and automation.",
+        "I have strong skills in Natural Language Processing (NLP), enabling me to develop applications like text classifiers, sentiment analyzers, and chatbots.", 
+        "I’m also proficient in data analysis and visualization using Python and Power BI, helping businesses make data-driven decisions through insightful dashboards and reports.",
+
+
+
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -33,7 +41,7 @@ const Home = () => {
 
           <a
             href={pdf}
-            download="Faizan_Resume.pdf"
+            download="Zubair_Khan_Resume.pdf"
             className="btn btn-outline-warning my-3"
           >
             Download Resume

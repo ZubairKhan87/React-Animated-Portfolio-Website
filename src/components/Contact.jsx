@@ -16,23 +16,17 @@ const Contact = () => {
           data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
-          <a href="https://www.google.com" target="_blank" className="items">
-            <FaInstagram className="icons" />
-          </a>
-          <a href="https://www.google.com" target="_blank" className="items">
-            <CiFacebook className="icons" />
-          </a>
-          <a href="https://www.google.com" target="_blank" className="items">
+          
+          
+          <a href="https://www.linkedin.com/in/zubair-khan-37412328a/" target="_blank" className="items">
             <CiLinkedin className="icons" />
           </a>
-          <a href="https://www.google.com" target="_blank" className="items">
-            <FaSquareXTwitter className="icons" />
-          </a>
-          <a href="https://www.github.com" target="_blank" className="items">
+         
+          <a href="https://github.com/ZubairKhan87" target="_blank" className="items">
             <FaGithubSquare className="icons" />
           </a>
           <a
-            href="mailto:webdevmastery@gmail.com"
+            href="mailto:zubair2021@namal.edu.pk"
             target="_blank"
             className="items"
           >

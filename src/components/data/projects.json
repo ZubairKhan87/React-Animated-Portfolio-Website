@@ -1,33 +1,238 @@
 [
   {
     "key": 1,
-    "title": "React E-Commerce",
+    "title": "AI Powered Interviewing System",
     "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": "This is a project made with complete React js.",
+    "descriptionShort": "Smart AI-based system to automate interviews and evaluate candidates.",
+    "sections": [
+      {
+        "heading": "💡 Overview",
+        "type": "paragraph",
+        "content": "AI Powered Interviewing System is designed to automate and enhance the recruitment process using artificial intelligence. It evaluates both technical knowledge and behavioral traits like confidence and honesty."
+      },
+      {
+        "heading": "⚙️ Key Features",
+        "type": "list",
+        "content": [
+          "Job Posting: Recruiters can post job openings through a simple dashboard.",
+          "Candidate Application: Candidates apply and get verified before the interview begins.",
+          "Dynamic Interviews: Questions are generated based on job requirements using LLMs.",
+          "Semantic Evaluation: Each answer is evaluated using semantic similarity techniques.",
+          "Intent Classification: Understands candidate intent for follow-up questions and deeper analysis.",
+          "Cheating Detection: Candidate’s face is monitored to detect suspicious behavior.",
+          "Confidence Scoring: Facial expression analysis predicts candidate’s confidence.",
+          "Final Scoring: Generates a combined score of technical knowledge and confidence level.",
+          "Smart Shortlisting: Recruiters can shortlist candidates based on this intelligent scoring system."
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Language Model: Meta 3.8B Instruct for dynamic question generation and NLP tasks",
+          "Backend: Django Framework",
+          "API Layer: Django REST Framework (DRF)",
+          "Database: PostgreSQL",
+          "Frontend: React.js",
+          "Version Control: GitHub"
+        ]
+      }
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ZubairKhan87/TalentScout.git"
   },
   {
     "key": 2,
-    "title": "MERN Blogging",
+    "title": "AI-Copilot For Personalized Learning",
     "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
-    "description": "This is a project made with complete React js.",
+    "descriptionShort": "AI assistant to personalize assessments and learning in education.",
+    "sections": [
+      {
+        "heading": "💡 Overview",
+        "type": "paragraph",
+        "content": "AI-Copilot is a smart education assistant that personalizes learning for each student. It automates assessment generation, feedback, and adapts to individual learning styles."
+      },
+      {
+        "heading": "🎯 Key Features",
+        "type": "list",
+        "content": [
+          "Student Enrollment: Teach can add students in the course.",
+          "Course Material Upload: Teachers can upload course materials in various formats.",
+          "Dynamic Assessment: Generates personalized quizzes and questions based on student’s past performance.",
+          "Real-time Feedback: Provides instant evaluation and learning suggestions.",
+          "Progress Tracking: Monitors academic progress over time with visual insights.",
+          "Adaptive Learning: Adjusts difficulty level based on learning curve and preferences.",
+          "Teacher Dashboard: Enables educators to assign, evaluate, and analyze student assessments quickly.",
+          "Student Dashboard: Student can see their performance, can get real time feedback based upon performance"
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js",
+          "Backend: Django",
+          "API: DRF",
+          "Database: PostgreSQL",
+          "AI/NLP: Transformer-based models for text generation",
+          "Knowledge Base: Retrieval Augmented Generation (RAG) for personalized content",
+          "Version Control: GitHub",
+          "Authentication: Django Allauth for secure user management"
+        ]
+      }
+    ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ZubairKhan87/AI-Copilot-for-Personalized-Learning.git"
   },
   {
     "key": 3,
-    "title": "React Recipe",
+    "title": "FreshMart - Online Grocery Store",
     "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
-    "description": "This is a project made with complete React js.",
+    "descriptionShort": "A modern e-commerce platform for online grocery shopping.",
+    "sections": [
+      {
+        "heading": "🛒 Overview",
+        "type": "paragraph",
+        "content": "FreshMart is a user-friendly e-commerce grocery platform that brings daily essentials to your doorstep with real-time inventory tracking and delivery system."
+      },
+      {
+        "heading": "🧾 Core Features",
+        "type": "list",
+        "content": [
+          "Product Browsing: Users can explore groceries by category and apply filters.",
+          "Cart & Checkout: Simple cart management and secure online payments.",
+          "Order Tracking: Track the status of orders from warehouse to doorstep.",
+          "Admin Dashboard: Allows management of product listings, users, and orders.",
+          "Discounts & Coupons: Custom promotions engine for user retention."
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js + Bootstrap",
+          "Backend: Node.js with Express",
+          "Database: MongoDB",
+          "Authentication: JWT-based system",
+          "APIs: REST with DRF",
+          "Version Control: GitHub"
+        ]
+      }
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/ZubairKhan87/Online-Grocery-Store.git"
+  },
+  {
+    "key": 4,
+    "title": "Multi-Lingo - Language Learning App",
+    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
+    "descriptionShort": "AI-based app for learning multiple languages interactively.",
+    "sections": [
+      {
+        "heading": "🌐 Overview",
+        "type": "paragraph",
+        "content": "Multi-Lingo is an AI-powered language learning application that makes learning fun and interactive by offering language deversification for peoples of different background."
+      },
+      {
+        "heading": "📚 App Features",
+        "type": "list",
+        "content": [
+          "Lesson Generator: Custom lessons created based on learner’s progress.",
+          "Speech Practice: AI evaluates pronunciation using speech-to-text analysis.",
+          "Progress Dashboard: Visual reports on vocabulary, grammar, and speaking skills.",
+          "Multi-language Support: Includes popular languages like Spanish, French, Urdu, and Arabic."
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React Native",
+          "Backend: Django",
+          "API Layer: DRF",
+          "Voice Processing: Google Cloud Speech-to-Text",
+          "Authentication: Firebase",
+          "Data Storage: PostgreSQL"
+        ]
+      }
+    ],
+    "demo": "https://www.example.com",
+    "source": "#"
+  },
+{
+    "key": 5,
+    "title": "AI Powered Mood Tracker Journal",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "descriptionShort": "Smart journaling app that tracks your mood and mental wellness using NLP and emotion AI.",
+    "sections": [
+      {
+        "heading": "🧠 Overview",
+        "type": "paragraph",
+        "content": "AI Mood Tracker Journal is a mental health-focused app where users can write journal entries, and the system analyzes mood using AI."
+      },
+      {
+        "heading": "📋 Key Features",
+        "type": "list",
+        "content": [
+          "Natural Language Mood Detection",
+          "Emotion Tracking over time",
+          "Sentiment Visualization Charts to track your emotion history",
+          "Daily Journaling with Privacy",
+          "Suggestion Engine for Self-help",
+          "Recommends you songs based upon your mood"
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend:React",
+          "Backend:Django + DRF",
+          "LLMs: Meta 3.8B Instruct for mood detection",
+          "Emotion Analysis: Hugging Face Transformers",
+          "Visualization:Matplotlib + Chart.js",
+          "Database:PostgreSQL"
+        ]
+      }
+    ],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "key": 4,
-    "title": "React Firebase App",
+    "key": 6,
+    "title": "Custom NLU Pipeline",
     "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
+    "descriptionShort": "A custom Natural Language Understanding pipeline for Natural Language Understanding.",
+    "sections": [
+      {
+        "heading": "🔍 Overview",
+        "type": "paragraph",
+        "content": "This project involves building a complete NLU pipeline from scratch to classify user input and detect intent and entities classification with high accuracy."
+      },
+      {
+        "heading": "⚙️ Features",
+        "type": "list",
+        "content": [
+          "Custom Preprocessing (Tokenization, Lemmatization)",
+          "Intent Classification Model",
+          "Entity Recognition & Extraction",
+          "Modular and Extensible Design",
+          "Trained on Custom Prepared Dataset",
+          "Manual Labeling for training data"
+        ]
+      },
+      {
+        "heading": "🛠️ Tech Stack",
+        "type": "list",
+        "content": [
+          "Programming Language:Python",
+          "Intent Classification:DistiltBert",
+          "Entity Classification:RoBERTa",
+          "Frontend:React.js",
+          "Visualization:Matplotlib + Seaborn"
+        ]
+      }
+    ],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

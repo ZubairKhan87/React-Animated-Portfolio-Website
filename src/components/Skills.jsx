@@ -7,16 +7,17 @@ const Skills = () => {
       <div className="container skills" id="skills">
         <h1>SKILLS</h1>
         <div className="items">
-          {skills.map((data) => (
+{skills.map((skills, index) => (
             <>
-              <div
+              <div key={skills.id || index} // ✅ Has key prop
+              
                 className="item"
-                key={data.id}
+                // key={data.id}
                 data-aos="flip-left"
                 data-aos-duration="1000"
               >
-                <img src={`/assets/${data.imageSrc}`} alt="" />
-                <h3>{data.title}</h3>
+                <img src={`/assets/${skills.imageSrc}`} alt="" />
+                <h3>{skills.title}</h3>
               </div>
             </>
           ))}
